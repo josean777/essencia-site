@@ -1,0 +1,35 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663585076028/3EoquXQC4TpWCoYKjEggF9",
+    "access_key_id": "ASIAZV3A2ECZEGLFQ7GF",
+    "secret_access_key": "3WeoujW4HMimZot4o7X9gvfwbttnSfR6tOQ5w5LX",
+    "session_token": "IQoJb3JpZ2luX2VjEJ3//////////wEaCXVzLWVhc3QtMSJIMEYCIQDrzz8IlKsJFZRjvhJ2FIyz7akuX8ut8GUBwWtPpXfcOgIhANywpo7OwWkdBrF7Go4z7yA7fpjsn4GtkAyYDGFL9f1PKvYDCGYQBBoMNjY1Mzg2MDk4ODY2IgzcZz1rP1ba1htW9wkq0wPA/T/lpQpvFpc7IigrpIWgNegUyaNlufn6+qs2ONS/Zynwg20IvCKkq+rsg24rLjmRu1nNRbhHIWo2mZd0Z+FfIAa/AzMz0TMa046nt4RyZc62UUU4rQ4+qJKxxM+pWgesnxfznb8D/Si/GjHtAbB//BFw6tYxBOXKl+PfrV5u8y1PMPJVjQymt48FjrlVm+LUOIy14UPO9etnQsbC/KzZoXIM81eo7iYmC+0JC0fco/kLKEMR9pl4ZsdIH/yCrOKXMeBDvThLrFXR2KfdLCqbX52ww8eS89oegMRmJDXCS8KlXpuwr6jQD5GtivSHd0zJDa+HOkaXtucAt29k+lx3lkCVXUoPT9RFkN4ppEWMVZZZL1llh0c63qhmQueffOaSudgWZfUftu8vH3LMFA2gDuhqjKSACtutFpvNmXwKOzgakvMAuE2V4TQBnPRQ5SOUaS8YW8P3e7exUDvAuKjKdT70sSUoSRHflLk4PYRRfxHWLqvLQGUUu8Fq+Yvtoke203Gs7B/DRaV98SFPn1C4zQZKeQaqIDSjmKBD/jzMYARLh2AUNrFw1nge3kK3tjBGXD62mY/wUCytEGSkBIPRxyuD6U0An601OBWAWCQRO1UdjDCW75jQBjqcATB+OGVqk4/WcISVmuRs44tGgEN4I/FWYrFXQ9w0yrMe4WzK8AM7P4i0QWSgEFmn8tJ/LFWLEAgHwSrVFHSMH+su2PdDjtaGndHeW1dzFvT8mYzgF3IdvJxzG1wp7xzsyU5yW/xYs74y+hXb85bLkP6Syzm8ipdUrPOFX1ooFIM62C5lokRmDS45Hcsq9kN0zAGxlEjzwTsBd3Y/Zw==",
+    "expiration": "2026-05-15T08:59:02.000Z"
+  },
+  "name": "essencia-wellness",
+  "path": "/home/ubuntu/essencia-wellness",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "X8egdyQKZvGRziYTLvtpBs",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "H5rSqnfFcN5rmBZ6GdBwCY",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "ONSTRYX",
+    "OWNER_OPEN_ID": "25nuUGCabysg3o2hnpxSPF",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "ef8366da-5d32-46f6-b33c-f0fb0254eb66",
+    "VITE_APP_ID": "3EoquXQC4TpWCoYKjEggF9",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Essência | Bem-estar \u0026 Terapia Corporal",
+    "VITE_FRONTEND_FORGE_API_KEY": "YWpZeVDiS7zcqpNXyvR5kk",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
