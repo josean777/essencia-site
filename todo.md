@@ -23,6 +23,15 @@
 - [x] Corrigir layout mobile - remover overflow e ajustar responsividade
 - [x] Testar em dispositivos móveis
 
+## Novas Funcionalidades
+
+- [ ] Adicionar nome "Maria Clara Acyole" no site
+- [ ] Integrar mapa com localização do estabelecimento
+- [ ] Formulário com nome completo + seleção de procedimento
+- [ ] Enviar dados para WhatsApp com nome, procedimento e horários
+- [ ] Corrigir galeria de fotos
+- [ ] Corrigir upload de resultados dos clientes
+
 ## Melhorias Futuras
 
 - [ ] Integrar backend para armazenar fotos de resultados no banco de dados
