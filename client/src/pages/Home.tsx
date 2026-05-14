@@ -30,7 +30,7 @@ export default function Home() {
 
   const whatsappLink = 'https://wa.me/5575998401607?text=Olá%20Essência!%20Gostaria%20de%20agendar%20uma%20sessão%20de%20bem-estar.';
   // Número correto: +55 75 99840-1607
-  const logoUrl = '/manus-storage/logo-essencia_03f792c0.png';
+  const logoUrl = '/logo-essencia.png';
 
   const containerVariants = {
     hidden: { opacity: 0 },
