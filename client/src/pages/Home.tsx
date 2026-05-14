@@ -48,7 +48,7 @@ export default function Home() {
       y: 0,
       transition: {
         duration: 0.8,
-        ease: [0.23, 1, 0.32, 1],
+        ease: [0.23, 1, 0.32, 1] as any,
       },
     },
   };
@@ -158,7 +158,7 @@ export default function Home() {
             transition={{
               duration: 4 + i,
               repeat: Infinity,
-              ease: 'easeInOut',
+              ease: 'easeInOut' as const,
             }}
             style={{
               left: `${20 + i * 15}%`,
