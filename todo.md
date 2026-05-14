@@ -14,6 +14,14 @@
 - [x] Integração com WhatsApp para agendamentos
 - [x] Logo do Essência integrada
 
+## Correções Urgentes
+
+- [x] Usar número de WhatsApp correto: +55 75 99840-1607 em todos os links
+- [x] Usar ícone real do WhatsApp nos botões (SVG verde)
+- [x] Integrar logo do Essência (ET elegante) no site
+- [x] Corrigir layout mobile - remover overflow e ajustar responsividade
+- [x] Testar em dispositivos móveis
+
 ## Melhorias Futuras
 
 - [ ] Integrar backend para armazenar fotos de resultados no banco de dados

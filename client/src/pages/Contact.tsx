@@ -117,7 +117,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-display text-foreground mb-2">Telefone</h3>
                     <a
-                      href="tel:+5575998401607"
+                      href="tel:+5575999840160"
                       className="text-foreground/70 font-light hover:text-accent transition-premium"
                     >
                       +55 75 99840-1607
@@ -131,7 +131,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-display text-foreground mb-2">WhatsApp</h3>
                     <a
-                      href="https://wa.me/5575998401607?text=Olá%20Essência!%20Gostaria%20de%20agendar%20uma%20sessão%20de%20bem-estar."
+                      href="https://wa.me/5575999840160?text=Olá%20Essência!%20Gostaria%20de%20agendar%20uma%20sessão%20de%20bem-estar."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-foreground/70 font-light hover:text-accent transition-premium"

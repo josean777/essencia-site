@@ -230,7 +230,7 @@ export default function Blog() {
               Além de aprender, experimente nossas terapias premium e sinta a transformação
             </p>
             <a
-              href="https://wa.me/5575998401607?text=Olá%20Essência!%20Gostaria%20de%20agendar%20uma%20sessão%20de%20bem-estar."
+              href="https://wa.me/5575999840160?text=Olá%20Essência!%20Gostaria%20de%20agendar%20uma%20sessão%20de%20bem-estar."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-8 py-4 bg-accent text-accent-foreground rounded-full font-light shadow-luxury hover:shadow-luxury-lg transition-premium hover:scale-105"
