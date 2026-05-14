@@ -28,7 +28,7 @@ export default function Home() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const whatsappLink = 'https://wa.me/5575999840160?text=Olá%20Essência!%20Gostaria%20de%20agendar%20uma%20sessão%20de%20bem-estar.';
+  const whatsappLink = 'https://wa.me/5575998401607?text=Olá%20Essência!%20Gostaria%20de%20agendar%20uma%20sessão%20de%20bem-estar.';
   // Número correto: +55 75 99840-1607
   const logoUrl = '/manus-storage/logo-essencia_03f792c0.png';
 
@@ -66,33 +66,33 @@ export default function Home() {
           isScrolled ? 'bg-background/95 backdrop-blur-md shadow-luxury' : 'bg-transparent'
         }`}
       >
-        <div className="container flex items-center justify-between py-4 md:py-6">
-          <div className="flex items-center gap-3">
-            <img src={logoUrl} alt="Essência Logo" className="h-10 w-auto" />
-            <h1 className="text-2xl md:text-3xl font-display text-foreground">Essência</h1>
+        <div className="container flex items-center justify-between py-4 md:py-6 gap-4">
+          <div className="flex items-center gap-2 flex-shrink-0">
+            <img src={logoUrl} alt="Essência Logo" className="h-8 md:h-10 w-auto" />
+            <h1 className="text-lg md:text-2xl font-display text-foreground whitespace-nowrap">Essência</h1>
           </div>
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-3 md:gap-6 flex-wrap justify-end">
             <a
               href="/gallery"
-              className="text-sm md:text-base font-light hover:text-accent transition-premium"
+              className="text-xs md:text-sm font-light hover:text-accent transition-premium whitespace-nowrap"
             >
               Galeria
             </a>
             <a
               href="/blog"
-              className="text-sm md:text-base font-light hover:text-accent transition-premium"
+              className="text-xs md:text-sm font-light hover:text-accent transition-premium whitespace-nowrap"
             >
               Blog
             </a>
             <a
-              href="#services"
-              className="text-sm md:text-base font-light hover:text-accent transition-premium"
+              href="/contact"
+              className="text-xs md:text-sm font-light hover:text-accent transition-premium whitespace-nowrap"
             >
               Serviços
             </a>
             <a
-              href="#about"
-              className="text-sm md:text-base font-light hover:text-accent transition-premium"
+              href="/"
+              className="text-xs md:text-sm font-light hover:text-accent transition-premium whitespace-nowrap"
             >
               Sobre
             </a>
@@ -100,7 +100,7 @@ export default function Home() {
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 md:px-6 py-2 md:py-3 bg-accent text-accent-foreground rounded-full text-sm font-light hover:shadow-luxury transition-premium hover:scale-105"
+              className="px-3 md:px-6 py-2 md:py-3 bg-accent text-accent-foreground rounded-full text-xs md:text-sm font-light hover:shadow-luxury transition-premium hover:scale-105 flex-shrink-0"
             >
               Agendar
             </a>
@@ -156,9 +156,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="px-8 py-4 border border-green-500 text-green-600 rounded-full font-light hover:bg-green-50 transition-premium inline-flex items-center gap-2"
             >
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.272-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-5.031 1.378c-1.557.821-2.816 2.088-3.645 3.711-1.477 2.773-1.297 5.23.182 7.231 1.62 2.17 4.038 3.408 6.724 3.408 1.22 0 2.397-.264 3.496-.786l.256.015c3.911 0 5.649-2.092 5.921-3.161.559-2.185-.959-4.076-3.159-5.531-.881-.661-2.59-1.428-4.357-1.512l-.258-.009zm0-1.04c1.917.101 3.886.662 5.314 1.549 2.367 1.773 4.471 4.414 3.86 7.514-.381 1.873-1.588 3.094-3.149 3.552-1.345.385-2.236.334-3.926.334-2.568 0-4.723-1.148-6.215-3.312-1.604-2.317-1.757-4.526-.409-7.051.827-1.544 2.073-2.886 3.622-3.654 1.223-.646 2.605-.982 3.903-.932z"/>
-              </svg>
+              <MessageCircle size={18} />
               WhatsApp
             </a>
           </motion.div>
@@ -454,9 +452,7 @@ export default function Home() {
               whileTap={{ scale: 0.98 }}
               className="inline-flex items-center gap-3 px-10 py-5 bg-green-500 text-white rounded-full font-light shadow-luxury-lg transition-premium text-lg hover:bg-green-600"
             >
-              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.272-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-5.031 1.378c-1.557.821-2.816 2.088-3.645 3.711-1.477 2.773-1.297 5.23.182 7.231 1.62 2.17 4.038 3.408 6.724 3.408 1.22 0 2.397-.264 3.496-.786l.256.015c3.911 0 5.649-2.092 5.921-3.161.559-2.185-.959-4.076-3.159-5.531-.881-.661-2.59-1.428-4.357-1.512l-.258-.009zm0-1.04c1.917.101 3.886.662 5.314 1.549 2.367 1.773 4.471 4.414 3.86 7.514-.381 1.873-1.588 3.094-3.149 3.552-1.345.385-2.236.334-3.926.334-2.568 0-4.723-1.148-6.215-3.312-1.604-2.317-1.757-4.526-.409-7.051.827-1.544 2.073-2.886 3.622-3.654 1.223-.646 2.605-.982 3.903-.932z"/>
-              </svg>
+              <MessageCircle size={24} />
               Conversar no WhatsApp
             </motion.a>
           </motion.div>
@@ -475,7 +471,7 @@ export default function Home() {
         whileTap={{ scale: 0.95 }}
         className="fixed bottom-8 right-8 z-40 p-4 bg-green-500 text-white hover:bg-green-600 rounded-full shadow-luxury-lg hover:shadow-luxury transition-premium"
       >
-        <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.272-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-5.031 1.378c-1.557.821-2.816 2.088-3.645 3.711-1.477 2.773-1.297 5.23.182 7.231 1.62 2.17 4.038 3.408 6.724 3.408 1.22 0 2.397-.264 3.496-.786l.256.015c3.911 0 5.649-2.092 5.921-3.161.559-2.185-.959-4.076-3.159-5.531-.881-.661-2.59-1.428-4.357-1.512l-.258-.009zm0-1.04c1.917.101 3.886.662 5.314 1.549 2.367 1.773 4.471 4.414 3.86 7.514-.381 1.873-1.588 3.094-3.149 3.552-1.345.385-2.236.334-3.926.334-2.568 0-4.723-1.148-6.215-3.312-1.604-2.317-1.757-4.526-.409-7.051.827-1.544 2.073-2.886 3.622-3.654 1.223-.646 2.605-.982 3.903-.932z"/></svg>
+        <MessageCircle size={28} />
       </motion.a>
 
       {/* Footer */}

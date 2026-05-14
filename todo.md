@@ -16,8 +16,9 @@
 
 ## Correções Urgentes
 
-- [x] Usar número de WhatsApp correto: +55 75 99840-1607 em todos os links
-- [x] Usar ícone real do WhatsApp nos botões (SVG verde)
+- [x] Corrigir número de WhatsApp: +55 75 99840-1607
+- [x] Usar ícone real do WhatsApp da Lucide React (MessageCircle)
+- [x] Corrigir cabeçalho - texto "Essência" não sobrepondo mais
 - [x] Integrar logo do Essência (ET elegante) no site
 - [x] Corrigir layout mobile - remover overflow e ajustar responsividade
 - [x] Testar em dispositivos móveis
