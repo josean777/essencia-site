@@ -68,6 +68,18 @@ export default function Home() {
           <h1 className="text-2xl md:text-3xl font-display text-foreground">Essência</h1>
           <div className="flex items-center gap-6">
             <a
+              href="/gallery"
+              className="text-sm md:text-base font-light hover:text-accent transition-premium"
+            >
+              Galeria
+            </a>
+            <a
+              href="/blog"
+              className="text-sm md:text-base font-light hover:text-accent transition-premium"
+            >
+              Blog
+            </a>
+            <a
               href="#services"
               className="text-sm md:text-base font-light hover:text-accent transition-premium"
             >
@@ -482,6 +494,17 @@ export default function Home() {
                 <li><a href="#about" className="hover:text-accent transition-premium">Sobre Maria Clara</a></li>
                 <li><a href="#services" className="hover:text-accent transition-premium">Serviços</a></li>
                 <li><a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-premium">Agendar</a></li>
+              </ul>
+            </div>
+
+            {/* Links */}
+            <div>
+              <h4 className="font-display text-sm mb-4">Navegação</h4>
+              <ul className="space-y-2 text-sm font-light">
+                <li><a href="/gallery" className="hover:text-accent transition-premium">Galeria</a></li>
+                <li><a href="/blog" className="hover:text-accent transition-premium">Blog</a></li>
+                <li><a href="/contact" className="hover:text-accent transition-premium">Contato</a></li>
+                <li><a href="/upload-results" className="hover:text-accent transition-premium">Upload de Resultados</a></li>
               </ul>
             </div>
 
