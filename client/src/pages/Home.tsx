@@ -327,7 +327,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-border pt-8 text-center text-foreground/70 font-light">
-            <p>&copy; 2026 Essência. Todos os direitos reservados. | Desenvolvido com Manus</p>
+            <p>&copy; 2026 Essência. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
